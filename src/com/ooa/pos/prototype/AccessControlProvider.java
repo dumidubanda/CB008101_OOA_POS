@@ -10,10 +10,9 @@ public class AccessControlProvider {
 	static{
 		
 		System.out.println("Fetching data from external resources and creating access control objects...");
-		map.put("USER", new AccessControl("USER","DO_WORK"));
-		map.put("ADMIN", new AccessControl("ADMIN","ADD/REMOVE USERS"));
-		map.put("MANAGER", new AccessControl("MANAGER","GENERATE/READ REPORTS"));
-		map.put("VP", new AccessControl("VP","MODIFY REPORTS"));
+		map.put("CASHIER", new AccessControl("USER","SALES"));
+		map.put("ADMIN", new AccessControl("ADMIN","ADD/REMOVE USERS, GENERATE/READ REPORTS"));
+		
 	}
 	
 	public static AccessControl getAccessControlObject(String controlLevel){

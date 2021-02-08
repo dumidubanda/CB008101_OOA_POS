@@ -96,7 +96,7 @@
                       <EmptySpace min="-2" pref="237" max="-2" attributes="0"/>
                       <Component id="btnCashierSales" min="-2" pref="167" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnCashierLoyalCus" min="-2" pref="163" max="-2" attributes="0"/>
+                      <Component id="btnCashierLoyalCus" min="-2" pref="180" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="btnAdminReports" min="-2" pref="175" max="-2" attributes="0"/>
                       <EmptySpace min="-2" max="-2" attributes="0"/>

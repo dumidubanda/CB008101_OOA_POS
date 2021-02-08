@@ -66,46 +66,46 @@ public class SingletonCustomerRegister extends javax.swing.JFrame {
     
 //----Adding data to Jtable------------------------------------------------------------------------------------------------------------------------//
     
-//   public void CustomerLoad()
-//   {
-//       int c;
-//        try {
-//            pst = con.prepareStatement("SELECT * FROM loyalcustomer");
-//            rs = pst.executeQuery();
-//            
-//            ResultSetMetaData rsd = rs.getMetaData();
-//            c = rsd.getColumnCount();
-//            d = (DefaultTableModel)tblCustomer.getModel();
-//            d.setRowCount(0);
-//            
-////** While loop for load the data
-//            while(rs.next())
-//            {
-//              Vector v2 = new Vector();
-//              for(int i=1; i<=c; i++)
-//              {
-//              v2.add(rs.getString("customer_id"));
-//              v2.add(rs.getString("customer_fname"));
-//              v2.add(rs.getString("customer_lname"));
-//              v2.add(rs.getString("customer_gender"));
-//              v2.add(rs.getString("customer_nic"));
-//              v2.add(rs.getString("customer_address"));
-//              v2.add(rs.getString("customer_contactno"));
-//              v2.add(rs.getString("customer_mail"));
-//             
-//              v2.add(rs.getDate("registered_date"));   // Registred Date
-//              
-//              v2.add(rs.getString("loyal_points"));
-//              }
-//              
-//              d.addRow(v2);
-//            }
-//             
-//        } catch (SQLException ex) {
-//            Logger.getLogger(CustomerRegister.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+   public void CustomerLoad()
+   {
+       int c;
+        try {
+            pst = con.prepareStatement("SELECT * FROM loyalcustomer");
+            rs = pst.executeQuery();
+            
+            ResultSetMetaData rsd = rs.getMetaData();
+            c = rsd.getColumnCount();
+            d = (DefaultTableModel)tblCustomer.getModel();
+            d.setRowCount(0);
+            
+//** While loop for load the data
+            while(rs.next())
+            {
+              Vector v2 = new Vector();
+              for(int i=1; i<=c; i++)
+              {
+              v2.add(rs.getString("customer_id"));
+              v2.add(rs.getString("customer_fname"));
+              v2.add(rs.getString("customer_lname"));
+              v2.add(rs.getString("customer_gender"));
+              v2.add(rs.getString("customer_nic"));
+              v2.add(rs.getString("customer_address"));
+              v2.add(rs.getString("customer_contactno"));
+              v2.add(rs.getString("customer_mail"));
+             
+              v2.add(rs.getDate("registered_date"));   // Registred Date
+              
+              v2.add(rs.getString("loyal_points"));
+              }
+              
+              d.addRow(v2);
+            }
+             
+        } catch (SQLException ex) {
+            Logger.getLogger(CustomerRegister.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
-//   }
+   }
 
    
  //-------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -229,8 +229,6 @@ public class SingletonCustomerRegister extends javax.swing.JFrame {
                 .addGap(20, 20, 20))
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-
         tblCustomer.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         tblCustomer.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -332,7 +330,6 @@ public class SingletonCustomerRegister extends javax.swing.JFrame {
             }
         });
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Customer Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         lblCustomerId.setBackground(new java.awt.Color(255, 255, 255));

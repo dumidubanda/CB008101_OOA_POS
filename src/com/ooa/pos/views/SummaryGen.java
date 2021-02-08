@@ -148,12 +148,7 @@ public class SummaryGen extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Reports");
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
         jTabbedPane1.setOpaque(true);
-
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         btnExitFromCashierReg.setText("Exit");
         btnExitFromCashierReg.setToolTipText("Exit From Application");
@@ -173,7 +168,6 @@ public class SummaryGen extends javax.swing.JFrame {
             }
         });
 
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Sales Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         jTableRight.setModel(new javax.swing.table.DefaultTableModel(
@@ -210,7 +204,6 @@ public class SummaryGen extends javax.swing.JFrame {
             }
         });
 
-        jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Sales Details Summary", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         tblSalesDetailsLeft.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -249,7 +242,6 @@ public class SummaryGen extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Time Period", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -587,8 +579,6 @@ public class SummaryGen extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Sales Reports", jPanel2);
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-
         btnExitFromCashierReg2.setText("Exit");
         btnExitFromCashierReg2.setToolTipText("Exit From Application");
         btnExitFromCashierReg2.setBorder(null);
@@ -704,8 +694,6 @@ public class SummaryGen extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Loyal Customer Reports", jPanel4);
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-
         btnExitFromCashierReg3.setText("Exit");
         btnExitFromCashierReg3.setToolTipText("Exit From Application");
         btnExitFromCashierReg3.setBorder(null);
@@ -724,7 +712,6 @@ public class SummaryGen extends javax.swing.JFrame {
             }
         });
 
-        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Stock Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         jTableStockDetails.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N

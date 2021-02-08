@@ -171,8 +171,6 @@ public class SingletonStockManagment extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
         btnBackFromItem.setText("Back");
         btnBackFromItem.setToolTipText("Back to Dash Board");
         btnBackFromItem.setBorder(null);
@@ -182,7 +180,6 @@ public class SingletonStockManagment extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Item Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         jLabel2.setBackground(new java.awt.Color(204, 255, 255));
@@ -372,7 +369,6 @@ public class SingletonStockManagment extends javax.swing.JFrame {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Item Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         tblAddItems.setModel(new javax.swing.table.DefaultTableModel(

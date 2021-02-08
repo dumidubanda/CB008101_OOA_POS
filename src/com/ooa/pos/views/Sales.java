@@ -229,12 +229,8 @@ public class Sales extends javax.swing.JFrame {
         kGradientPanel1.setkEndColor(new java.awt.Color(0, 108, 254));
         kGradientPanel1.setkStartColor(new java.awt.Color(0, 230, 103));
 
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
-
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Sales Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder));
 
         txtSearchItem.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -317,7 +313,6 @@ public class Sales extends javax.swing.JFrame {
         jLabel1ItSize.setText("Item Size");
         jLabel1ItSize.setOpaque(true);
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder));
 
         jLabelSubTotal.setBackground(new java.awt.Color(255, 102, 102));
@@ -648,7 +643,6 @@ public class Sales extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder));
 
         lblInvoiceId.setBackground(new java.awt.Color(0, 255, 255));
@@ -917,7 +911,6 @@ public class Sales extends javax.swing.JFrame {
                 .addGap(5, 5, 5))
         );
 
-        jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaptionBorder), "Loyal Customer Loyalty Points", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14), java.awt.SystemColor.activeCaptionBorder)); // NOI18N
 
         jLabelCurrentPoints.setBackground(new java.awt.Color(204, 204, 204));
@@ -1173,8 +1166,6 @@ public class Sales extends javax.swing.JFrame {
                 .addComponent(btnNewSaleReset, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
 
         lblUserDesignnation.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         lblUserDesignnation.setText("Designation");
