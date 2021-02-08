@@ -17,7 +17,7 @@ public class TestPrototypePattern {
 		
 		System.out.println("************************************");
 		
-		AccessControl managerAccessControl = AccessControlProvider.getAccessControlObject("MANAGER");
+		AccessControl managerAccessControl = AccessControlProvider.getAccessControlObject("ADMIN");
 		user = new User("User C", "MANAGER Level", managerAccessControl);
 		System.out.println(user);
 	}
